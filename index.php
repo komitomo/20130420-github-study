@@ -1,4 +1,5 @@
 <?php
+echo "diff";
 	$str_browser_language = !empty($_SERVER['HTTP_ACCEPT_LANGUAGE']) ? strtok(strip_tags($_SERVER['HTTP_ACCEPT_LANGUAGE']), ',') : '';
 	$str_browser_language = !empty($_GET['language']) ? $_GET['language'] : $str_browser_language;
 	switch (substr($str_browser_language, 0,2))
@@ -26,6 +27,7 @@
 		}
 	}
 	$str_available_languages = substr($str_available_languages, 0, -3);
+	echo "diff";
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
