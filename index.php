@@ -13,7 +13,7 @@ echo "diff";
 		default:
 			$str_language = 'en';
 	}
-
+echo "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
 	$arr_available_languages = array();
 	$arr_available_languages[] = array('str_name' => 'English', 'str_token' => 'en');
 	$arr_available_languages[] = array('str_name' => 'Deutsch', 'str_token' => 'de');
